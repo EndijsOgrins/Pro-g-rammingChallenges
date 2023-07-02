@@ -1,1 +1,1 @@
-# Pro-g-rammingChallenges
+# Pro/g/ramming Challenges
