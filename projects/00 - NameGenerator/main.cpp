@@ -3,6 +3,8 @@
 #include <cstdlib>
 #include <string>
 
+int nameCount = 25; // Number of names to generate
+
 std::string generateRandomName(); // Function prototype to indicate that the function is defined later in the program
 
 // Make a list of names globally so it can be accessed from anywhere in the program
@@ -22,7 +24,7 @@ int main() {
     std::cout << "---------------------" << std::endl;
 
     // Generate and display a random name in loop
-    for (int i = 1; i <= 10; i++) {
+    for (int i = 1; i <= nameCount; i++) {
         std::string randomName = generateRandomName();
         std::cout << "Random Name " << i << ": " << randomName << std::endl;
     }
